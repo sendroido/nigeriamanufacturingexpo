@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Nigeria Manufacturing and Equipment (NME) Expo 2020</title>
+<!-- Stylesheets -->
+<link href="https://www.nerdysigns.net/NME/css/bootstrap.css" rel="stylesheet">
+<link href="https://www.nerdysigns.net/NME/css/style.css" rel="stylesheet">
+<link href="https://www.nerdysigns.net/NME/css/responsive.css" rel="stylesheet">
+<!--Color Switcher Mockup-->
+
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- Header span -->
+
+
+    <!-- Main Header-->
+    <header class="main-header">
+        <div class="main-box">
+            <div class="auto-container clearfix">
+                <div class="logo-box">
+                    <div class="logo"><a href="index.html"><img src="https://www.nerdysigns.net/NME/images/logo.png" alt="" title=""></a></div>
+                </div>
+                
+                <!--Nav Box-->
+                <div class="nav-outer clearfix">
+                    <!--Mobile Navigation Toggler-->
+                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-md navbar-light">
+                        <div class="navbar-header">
+                            <!-- Togg le Button -->      
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon flaticon-menu-button"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                              <ul class="navigation clearfix">
+                                <li><a href="about.html">About</a>
+                                </li>
+                                <li><a href="sponsor.html">Sponsor/Exhibit</a></li>
+                                <li><a href="#">Speakers</a></li>
+                                <li class="dropdown" ><a href="conference.html">Conference</a>
+                                <ul>
+                                        <li><a href="conference.html#attend">Why Attend?</a></li>
+                                        <li><a href="conference.html#exhibitor">Exhibitor Profile</a></li>
+                                        <li><a href="conference.html#visitor">Visitor Profile</a></li>
+                                        <li><a href="schedule.html">Schedule</a></li>
+                                    </ul>
+                            </li>
+                                <li class="current"><a href="register.php">Register</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel-1"></span></div>
+            
+            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="https://www.nerdysigns.net/NME/images/logo.png" alt="" title=""></a></div>
+                
+                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+    </header>
+    <!--End Main Header -->
+
+    <!--Page Title-->
+    <section class="page-title overlay" style="background-image:url(https://www.nerdysigns.net/NME/images/5.jpg);">
+        
+    </section>
+    <!--End Page Title-->
+
+     
+    <!-- Contact Page Section -->
+    <section class="contact-page-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="contact-column col-lg-10 col-md-12 col-sm-12 order-1">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>Register</h2>
+                        </div>
+                        <div class="contact-form">
+                            <form method="post" action="sendemail.php" id="contact-form">
+                                <div class="row clearfix">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="company" placeholder="Company" required="">
+                                    </div>
+                                    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>Select company type</label>
+                                        <select name="industry">
+                                        <option value="120">Academic / Research Institution</option>
+                                        <option value="121">Agriculture</option>
+                                        <option value="423">Agro Processing</option>
+                                        <option value="127">Association</option>
+                                        <option value="157">Farmers</option>
+                                        <option value="162">Feedstock</option>
+                                        <option value="300">Food, Beverages and Tobacco Processing</option>
+                                        <option value="434">Industry Association</option>
+                                        <option value="179">Logistics</option>
+                                        <option value="180">Manufacturing / Plant</option>
+                                        <option value="182">Media</option>
+                                        <option value="252">Mineral Extraction</option>
+                                        <option value="201">Plastics - Manufacturers</option>
+                                        <option value="438">Raw Material / Ingredient Producer</option>
+                                        <option value="224">Shipping, Transportation and Storage</option>
+                                        </select>
+                                    </div>
+                                      <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="subject" placeholder="Job Title">
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <textarea  name="subject" placeholder="Address"></textarea>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="subject" placeholder="Zip Code">
+                                    </div>
+                                    <div class="col-lg-8 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="subject" placeholder="City">
+                                    </div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 form-group">
+    <label>Select a country / region</label>
+    <select name="country" >
+                                    <option value="1">Afghanistan</option>
+                                    <option value="2">Aland Islands</option>
+                                    <option value="3">Albania</option>
+                                    <option value="4">Algeria</option>
+                                    <option value="5">American Samoa</option>
+                                    <option value="6">Andorra</option>
+                                    <option value="7">Angola</option>
+                                    <option value="8">Anguilla</option>
+                                    <option value="9">Antarctica</option>
+                                    <option value="10">Antigua and Barbuda</option>
+                                    <option value="11">Argentina</option>
+                                    <option value="12">Armenia</option>
+                                    <option value="13">Aruba</option>
+                                    <option value="233">Australia</option>
+                                    <option value="243">Austria</option>
+                                    <option value="14">Azerbaijan</option>
+                                    <option value="15">Bahamas</option>
+                                    <option value="16">Bahrain</option>
+                                    <option value="17">Bangladesh</option>
+                                    <option value="18">Barbados</option>
+                                    <option value="19">Belarus</option>
+                                    <option value="235">Belgium</option>
+                                    <option value="20">Belize</option>
+                                    <option value="21">Benin</option>
+                                    <option value="22">Bermuda</option>
+                                    <option value="23">Bhutan</option>
+                                    <option value="24">Bolivia</option>
+                                    <option value="25">Bosnia and Herzegovina</option>
+                                    <option value="26">Botswana</option>
+                                    <option value="27">Bouvet Island</option>
+                                    <option value="28">Brazil</option>
+                                    <option value="29">British Indian Ocean Territory</option>
+                                    <option value="30">Brunei Darussalam</option>
+                                    <option value="31">Bulgaria</option>
+                                    <option value="32">Burkina Faso</option>
+                                    <option value="33">Burundi</option>
+                                    <option value="34">Cambodia</option>
+                                    <option value="35">Cameroon</option>
+                                    <option value="36">Canada</option>
+                                    <option value="37">Cape Verde</option>
+                                    <option value="38">Cayman Islands</option>
+                                    <option value="39">Central African Republic</option>
+                                    <option value="40">Chad</option>
+                                    <option value="41">Chile</option>
+                                    <option value="42">China</option>
+                                    <option value="43">Christmas Island</option>
+                                    <option value="44">Cocos (Keeling) Islands</option>
+                                    <option value="45">Colombia</option>
+                                    <option value="46">Comoros</option>
+                                    <option value="47">Congo</option>
+                                    <option value="49">Cook Islands</option>
+                                    <option value="50">Costa Rica</option>
+                                    <option value="51">C&#244;te d&#39;Ivoire</option>
+                                    <option value="52">Croatia</option>
+                                    <option value="53">Cuba</option>
+                                    <option value="54">Cyprus</option>
+                                    <option value="237">Czech Republic</option>
+                                    <option value="48">Democratic Republic of Congo</option>
+                                    <option value="242">Denmark</option>
+                                    <option value="55">Djibouti</option>
+                                    <option value="56">Dominica</option>
+                                    <option value="57">Dominican Republic</option>
+                                    <option value="58">Ecuador</option>
+                                    <option value="232">Egypt</option>
+                                    <option value="59">El Salvador</option>
+                                    <option value="60">Equatorial Guinea</option>
+                                    <option value="61">Eritrea</option>
+                                    <option value="62">Estonia</option>
+                                    <option value="63">Ethiopia</option>
+                                    <option value="64">Falkland Islands (Malvinas)</option>
+                                    <option value="65">Faroe Islands</option>
+                                    <option value="66">Fiji</option>
+                                    <option value="67">Finland</option>
+                                    <option value="239">France</option>
+                                    <option value="68">French Guiana</option>
+                                    <option value="69">French Polynesia</option>
+                                    <option value="70">French Southern Territories</option>
+                                    <option value="71">Gabon</option>
+                                    <option value="72">Gambia</option>
+                                    <option value="73">Georgia</option>
+                                    <option value="241">Germany</option>
+                                    <option value="74">Ghana</option>
+                                    <option value="75">Gibraltar</option>
+                                    <option value="76">Greece</option>
+                                    <option value="77">Greenland</option>
+                                    <option value="78">Grenada</option>
+                                    <option value="79">Guadeloupe</option>
+                                    <option value="80">Guam</option>
+                                    <option value="81">Guatemala</option>
+                                    <option value="82">Guernsey</option>
+                                    <option value="83">Guinea</option>
+                                    <option value="84">Guinea-Bissau</option>
+                                    <option value="85">Guyana</option>
+                                    <option value="86">Haiti</option>
+                                    <option value="87">Heard Island and McDonald Islands</option>
+                                    <option value="88">Holy See (Vatican City State)</option>
+                                    <option value="89">Honduras</option>
+                                    <option value="90">Hong Kong</option>
+                                    <option value="246">Hungary</option>
+                                    <option value="91">Iceland</option>
+                                    <option value="92">India</option>
+                                    <option value="231">Indonesia</option>
+                                    <option value="93">Iran, Islamic Republic of</option>
+                                    <option value="94">Iraq</option>
+                                    <option value="95">Ireland</option>
+                                    <option value="96">Isle of Man</option>
+                                    <option value="97">Israel</option>
+                                    <option value="98">Italy</option>
+                                    <option value="99">Jamaica</option>
+                                    <option value="100">Japan</option>
+                                    <option value="101">Jersey</option>
+                                    <option value="102">Jordan</option>
+                                    <option value="103">Kazakhstan</option>
+                                    <option value="104">Kenya</option>
+                                    <option value="105">Kiribati</option>
+                                    <option value="106">Korea, Democratic People&#39;s Republic of</option>
+                                    <option value="107">Korea, Republic of</option>
+                                    <option value="108">Kosovo</option>
+                                    <option value="109">Kuwait</option>
+                                    <option value="110">Kyrgyz Republic</option>
+                                    <option value="111">Lao People&#39;s Democratic Republic</option>
+                                    <option value="112">Latvia</option>
+                                    <option value="113">Lebanon</option>
+                                    <option value="114">Lesotho</option>
+                                    <option value="115">Liberia</option>
+                                    <option value="116">Libyan Arab Jamahiriya</option>
+                                    <option value="117">Liechtenstein</option>
+                                    <option value="118">Lithuania</option>
+                                    <option value="119">Luxembourg</option>
+                                    <option value="120">Macau</option>
+                                    <option value="121">Macedonia, the former Yugoslav Republic of</option>
+                                    <option value="122">Madagascar</option>
+                                    <option value="123">Malawi</option>
+                                    <option value="248">Malaysia</option>
+                                    <option value="124">Maldives</option>
+                                    <option value="125">Mali</option>
+                                    <option value="126">Malta</option>
+                                    <option value="127">Marshall Islands</option>
+                                    <option value="128">Martinique</option>
+                                    <option value="129">Mauritania</option>
+                                    <option value="130">Mauritius</option>
+                                    <option value="131">Mayotte</option>
+                                    <option value="132">Mexico</option>
+                                    <option value="133">Micronesia, Federated States of</option>
+                                    <option value="134">Moldova, Republic of</option>
+                                    <option value="135">Monaco</option>
+                                    <option value="136">Mongolia</option>
+                                    <option value="137">Montenegro</option>
+                                    <option value="138">Montserrat</option>
+                                    <option value="139">Morocco</option>
+                                    <option value="140">Mozambique</option>
+                                    <option value="141">Myanmar</option>
+                                    <option value="142">Namibia</option>
+                                    <option value="143">Nauru</option>
+                                    <option value="144">Nepal</option>
+                                    <option value="234">Netherlands</option>
+                                    <option value="145">Netherlands Antilles</option>
+                                    <option value="146">New Caledonia</option>
+                                    <option value="147">New Zealand</option>
+                                    <option value="148">Nicaragua</option>
+                                    <option value="149">Niger</option>
+                                    <option value="150">Nigeria</option>
+                                    <option value="151">Niue</option>
+                                    <option value="152">Norfolk Island</option>
+                                    <option value="153">Northern Mariana Islands</option>
+                                    <option value="244">Norway</option>
+                                    <option value="154">Oman</option>
+                                    <option value="155">Pakistan</option>
+                                    <option value="156">Palau</option>
+                                    <option value="157">Palestinian Territory, Occupied</option>
+                                    <option value="158">Panama</option>
+                                    <option value="159">Papua New Guinea</option>
+                                    <option value="160">Paraguay</option>
+                                    <option value="161">Peru</option>
+                                    <option value="162">Philippines</option>
+                                    <option value="163">Phillippines</option>
+                                    <option value="164">Pitcairn</option>
+                                    <option value="245">Poland</option>
+                                    <option value="247">Portugal</option>
+                                    <option value="165">Puerto Rico</option>
+                                    <option value="166">Qatar</option>
+                                    <option value="168">Reunion</option>
+                                    <option value="167">R&#233;union</option>
+                                    <option value="169">Romania</option>
+                                    <option value="170">Russian Federation</option>
+                                    <option value="171">Rwanda</option>
+                                    <option value="172">Saint Helena</option>
+                                    <option value="173">Saint Kitts and Nevis</option>
+                                    <option value="174">Saint Lucia</option>
+                                    <option value="175">Saint Pierre and Miquelon</option>
+                                    <option value="176">Saint Vincent and the Grenadines</option>
+                                    <option value="177">Samoa</option>
+                                    <option value="178">San Marino</option>
+                                    <option value="179">Sao Tome and Principe</option>
+                                    <option value="180">Saudi Arabia</option>
+                                    <option value="181">Senegal</option>
+                                    <option value="182">Serbia</option>
+                                    <option value="183">Seychelles</option>
+                                    <option value="184">Sierra Leone</option>
+                                    <option value="230">Singapore</option>
+                                    <option value="185">Slovakia</option>
+                                    <option value="186">Slovenia</option>
+                                    <option value="187">Solomon Islands</option>
+                                    <option value="188">Somalia</option>
+                                    <option value="189">South Africa</option>
+                                    <option value="190">South Georgia and the South Sandwich Islands</option>
+                                    <option value="250">South Sudan, Republic of</option>
+                                    <option value="240">Spain</option>
+                                    <option value="192">Sri Lanka</option>
+                                    <option value="193">Sudan</option>
+                                    <option value="194">Suriname</option>
+                                    <option value="195">Svalbard and Jan Mayen</option>
+                                    <option value="196">Swaziland</option>
+                                    <option value="238">Sweden</option>
+                                    <option value="236">Switzerland</option>
+                                    <option value="197">Syrian Arab Republic</option>
+                                    <option value="199">Tajikistan</option>
+                                    <option value="200">Tanzania</option>
+                                    <option value="249">Thailand</option>
+                                    <option value="201">Timor-Leste</option>
+                                    <option value="202">Togo</option>
+                                    <option value="203">Tokelau</option>
+                                    <option value="204">Tonga</option>
+                                    <option value="252">Trinidad &amp; Tobago</option>
+                                    <option value="205">Trinidad and Tobago</option>
+                                    <option value="206">Tunesia</option>
+                                    <option value="207">Tunisia</option>
+                                    <option value="208">Turkey</option>
+                                    <option value="209">Turkmenistan</option>
+                                    <option value="210">Turks and Caicos Islands</option>
+                                    <option value="211">Tuvalu</option>
+                                    <option value="212">Uganda</option>
+                                    <option value="213">Ukraine</option>
+                                    <option value="214">United Arab Emirates</option>
+                                    <option value="215">United Kingdom</option>
+                                    <option value="216">United States</option>
+                                    <option value="217">United States Minor Outlying Islands</option>
+                                    <option value="218">Uruguay</option>
+                                    <option value="219">Uzbekistan</option>
+                                    <option value="220">Vanuatu</option>
+                                    <option value="221">Venezuela</option>
+                                    <option value="222">Vietnam</option>
+                                    <option value="223">Virgin Islands, British</option>
+                                    <option value="224">Virgin Islands, U.S.</option>
+                                    <option value="225">Wallis and Futuna</option>
+                                    <option value="226">Western Sahara</option>
+                                    <option value="227">Yemen</option>
+                                    <option value="228">Zambia</option>
+                                    <option value="229">Zimbabwe</option>
+                                    </select>
+                                    </div>
+
+                                      <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="subject" placeholder="State">
+                                    </div>
+
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="email" name="email" placeholder="Email Address" required="">
+                                    </div>
+
+
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="text" name="number" placeholder="Phone Number" required="">
+                                    </div>
+
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <input type="url" name="email" placeholder="Website" required="">
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <label>How did you hear about us</label>
+                                    <select name="country" >
+                                    <option value="">Choose an option...</option>
+                                    <option value="1">Banner Ad</option>
+                                    <option value="2">Brochure Mailing</option>
+                                    <option value="3">Call From Organiser</option>
+                                    <option value="4">Colleague</option>
+                                    <option value="5">Direct Email</option>
+                                    <option value="6">E-Newsletter</option>
+                                    <option value="13">Linkedin</option>
+                                    <option value="7">Magazine Advert</option>
+                                    <option value="8">Magazine Insert</option>
+                                    <option value="9">Member Association</option>
+                                    <option value="12">Press Release</option>
+                                    <option value="11">Search Engine</option>
+                                    <option value="14">Twitter</option>
+                                    <option value="10">Website</option>
+                                    </select>
+                                    </div>
+                                    
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Submit Now</span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact Page Section -->
+
+
+   
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <!--Widgets Section-->
+        <div class="widgets-section">
+            <div class="auto-container">
+                <div class="row">
+                    <!--Big Column-->
+                    <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget about-widget">
+                                    <h2 class="widget-title"></h2>
+                                    <div class="logo">
+                                        <a href="index.html"><img src="https://www.nerdysigns.net/NME/images/logo.png" alt="" /></a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Learn from industry leaders sharing their knowledge and experience. Attendance is free of charge for all visitors.</p>           
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                           <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget useful-links">
+                                    <h2 class="widget-title">Useful Links</h2>
+                                    <ul class="user-links">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="conference.html">Conference</a></li>
+                                        <li><a href="register.php">Register</a></li>
+                                        <li><a href="https://www.nigeriarawmaterialsexpo.com/">Co-Location</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Big Column-->
+                     <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-8 col-md-6 col-sm-12">
+                                <!--Footer Column-->
+                                <div class="footer-widget contact-widget">
+                                    <h2 class="widget-title">Contact Us</h2>
+                                     <!--Footer Column-->
+                                    <div class="widget-content">
+                                        <ul class="contact-list">
+
+                                            <li>
+                                                <span class="icon flaticon-phone"></span>
+                                                <div class="text"><a href="tel:+234-810-123-3333">+234-810-123-3333</a></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="icon flaticon-paper-plane"></span>
+                                                <div class="text"><a href="mailto:Chizobam.kaluogba@manufacturersnigeria.org">Chizobam.kaluogba@manufacturersnigeria.org</a></div>
+                                                <div class="text"><a href="mailto:Chuma.Oruche@manufacturersnigeria.org">Chuma.Oruche@manufacturersnigeria.org</a></div>
+                                                <div class="text"><a href="mailto:Kanayo.Iwuchukwu@manufacturersnigeria.org">Kanayo.Iwuchukwu@manufacturersnigeria.org</a></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="icon flaticon-worldwide"></span>
+                                                 <div class="text">77 Awolowo Way, Ikeja, Lagos</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                                <!--Footer Column-->
+                                <div class="footer-widget about-widget">
+                                    <h2 class="widget-title">We're Social</h2>
+                                    <ul class="social-icon-one social-icon-colored">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://api.whatsapp.com/send?phone=2348096828852" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Bottom-->
+        <div class="footer-bottom">                    
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="copyright-text">
+                         <p>© Copyright Nigeria Manufacturing and Equipment (NME) Expo 2020. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+</div>
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+<script src="https://www.nerdysigns.net/NME/js/jquery.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/popper.min.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/bootstrap.min.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/jquery-ui.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/jquery.fancybox.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/appear.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/owl.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/wow.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/validate.js"></script>
+<script src="https://www.nerdysigns.net/NME/js/script.js"></script>
+<!-- Color Setting -->
+<script src="https://www.nerdysigns.net/NME/js/color-settings.js"></script>
+<!--Google Map APi Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJyIBI88fFMi5YJ8khAsPX7ouMsIZPorc"></script>
+<script src="https://www.nerdysigns.net/NME/js/map-script.js"></script>
+</body>
+
+</html>
